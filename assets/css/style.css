@@ -48,14 +48,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 18px;
+  padding: 0;
   background:
     radial-gradient(circle at 50% -18%, rgba(215, 173, 66, 0.18), transparent 34%),
     linear-gradient(180deg, var(--white) 0%, #f9fbff 58%, #eef3fb 100%);
 }
 
 .front-logo-banner img {
-  width: min(980px, 94vw);
+  width: 100%;
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 18px 26px rgba(6, 19, 41, 0.18));
@@ -964,7 +964,7 @@ img {
   }
 
   .front-logo-banner {
-    padding: 18px 12px;
+    padding: 0;
   }
 
   .front-logo-banner img {
