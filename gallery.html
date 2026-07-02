@@ -19,8 +19,8 @@
           <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
           <li><a href="product.html" data-i18n="nav.product">Product</a></li>
           <li class="dropdown">
-            <button class="dropdown-toggle active" type="button" data-i18n="nav.media">Media</button>
-            <div class="dropdown-menu">
+            <button class="dropdown-toggle active" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="media-submenu" data-i18n="nav.media">Media</button>
+            <div class="dropdown-menu" id="media-submenu">
               <a href="news.html" data-i18n="nav.news">News</a>
               <a class="active" href="gallery.html" data-i18n="nav.gallery">Gallery</a>
             </div>
@@ -84,6 +84,9 @@
       <h2 data-i18n="footer.socialMedia">Social Media</h2>
       <a class="social-icon" href="https://www.facebook.com/mygloryinternational" target="_blank" rel="noopener" aria-label="Facebook: MyGlory International"><img src="assets/images/fb.png" alt="Facebook"></a>
       <a class="social-icon" href="https://www.instagram.com/myglory_international_hq/" target="_blank" rel="noopener" aria-label="Instagram: myglory_international_hq"><img src="assets/images/ig.png" alt="Instagram"></a>
+    </div>
+    <div class="footer-copyright">
+      <p data-i18n="footer.copyright">&copy; 2026 MyGlory International Sdn Bhd. All rights reserved.</p>
     </div>
   </footer>
   <script src="assets/js/main.js"></script>

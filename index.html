@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-page="home">
-  <div class="front-logo-banner">
+  <div class="front-logo-banner top-logo-banner is-hidden">
     <img src="assets/images/headerbanner.png" alt="MyGlory International Sdn Bhd banner">
   </div>
 
@@ -23,8 +23,8 @@
           <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
           <li><a href="product.html" data-i18n="nav.product">Product</a></li>
           <li class="dropdown">
-            <button class="dropdown-toggle" type="button" data-i18n="nav.media">Media</button>
-            <div class="dropdown-menu">
+            <button class="dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="media-submenu" data-i18n="nav.media">Media</button>
+            <div class="dropdown-menu" id="media-submenu">
               <a href="news.html" data-i18n="nav.news">News</a>
               <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
             </div>
@@ -58,33 +58,106 @@
           <a class="btn btn-secondary" href="contact.html" data-i18n="common.contact">Contact Us</a>
         </div>
       </div>
-      <div class="hero-card" aria-label="Company motto">
+      <!-- <div class="hero-card" aria-label="Company motto">
         <img src="assets/images/logo.png" alt="MyGlory International logo">
         <p data-i18n="hero.cardTitle">MyGlory International Sdn Bhd</p>
         <strong data-i18n="hero.motto">Your Glory, Our Victory</strong>
+      </div> -->
+    </section>
+
+    <div class="front-logo-banner founder-slideshow" aria-label="Founder banner slideshow">
+      <img src="assets/images/gfounder.png" alt="GFounder banner">
+      <img src="assets/images/founder.png" alt="Founder banner">
+    </div>
+
+    <section class="section welcome-section" aria-labelledby="welcome-title">
+      <div class="welcome-image">
+        <img src="assets/images/office.png" alt="MyGlory office">
+      </div>
+      <div class="welcome-content">
+        <p class="eyebrow" data-i18n="home.welcomeEyebrow">Welcome</p>
+        <h2 id="welcome-title" data-i18n="home.welcomeTitle">Welcome to MyGlory International</h2>
+        <p data-i18n="home.welcomeText">At MyGlory International, we are committed to creating a positive impact in the lives of individuals through quality wellness products and an empowering business opportunity. Join our growing community and discover how MyGlory can help you achieve better health, financial freedom, and personal growth.</p>
+        <a class="btn btn-primary" href="about.html" data-i18n="home.learnMore">LEARN MORE</a>
       </div>
     </section>
 
-    <section class="section section-light">
-      <div class="section-heading">
+    <section class="section why-choose-section" aria-labelledby="why-choose-title">
+      <div class="section-heading why-choose-heading">
+        <p class="eyebrow" data-i18n="home.whyEyebrow">Why Choose Us</p>
+        <h2 id="why-choose-title" data-i18n="home.whyTitle">Why Choose MyGlory International</h2>
+        <p data-i18n="home.whyText">We combine trusted wellness solutions, people-first guidance, and a growth-focused business platform to help our community move forward with confidence.</p>
+      </div>
+      <div class="usp-grid">
+        <article class="usp-card">
+          <span>01</span>
+          <h3 data-i18n="home.usp1Title">Premium Wellness Focus</h3>
+          <p data-i18n="home.usp1Text">We focus on quality-driven wellness products designed to support healthier, more confident everyday living.</p>
+        </article>
+        <article class="usp-card">
+          <span>02</span>
+          <h3 data-i18n="home.usp2Title">Empowering Business Opportunity</h3>
+          <p data-i18n="home.usp2Text">Our platform helps individuals build income potential, leadership skills, and long-term personal growth.</p>
+        </article>
+        <article class="usp-card">
+          <span>03</span>
+          <h3 data-i18n="home.usp3Title">Community With Purpose</h3>
+          <p data-i18n="home.usp3Text">We grow through teamwork, mentorship, and shared success, creating a supportive environment for every member.</p>
+        </article>
+        <article class="usp-card">
+          <span>04</span>
+          <h3 data-i18n="home.usp4Title">Integrity-Led Growth</h3>
+          <p data-i18n="home.usp4Text">We are guided by trust, professionalism, and sustainable strategies that create lasting value.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light professional-section">
+      <div class="section-heading professional-heading">
         <p class="eyebrow" data-i18n="home.introEyebrow">Who We Are</p>
         <h2 data-i18n="home.introTitle">A company built on trust, ambition, and shared success.</h2>
+        <p class="section-lead" data-i18n="home.introLead">We build long-term value through reliable products, ethical business practices, and a supportive platform designed for customers, members, and partners.</p>
       </div>
-      <div class="feature-grid">
-        <article class="feature-card">
+      <div class="professional-grid">
+        <article class="feature-card professional-card">
           <span>01</span>
-          <h3 data-i18n="home.feature1Title">Quality</h3>
-          <p data-i18n="home.feature1Text">We focus on dependable products, professional service, and long-term value.</p>
+          <h3 data-i18n="home.professional1Title">Trusted Product Standards</h3>
+          <p data-i18n="home.professional1Text">We prioritise consistent quality, dependable product value, and responsible presentation across every customer touchpoint.</p>
         </article>
-        <article class="feature-card">
+        <article class="feature-card professional-card">
           <span>02</span>
-          <h3 data-i18n="home.feature2Title">Growth</h3>
-          <p data-i18n="home.feature2Text">We believe every partner and customer should grow together with our vision.</p>
+          <h3 data-i18n="home.professional2Title">Member-Focused Growth</h3>
+          <p data-i18n="home.professional2Text">Our community is built to help individuals develop confidence, leadership, and practical business momentum.</p>
         </article>
-        <article class="feature-card">
+        <article class="feature-card professional-card">
           <span>03</span>
-          <h3 data-i18n="home.feature3Title">Victory</h3>
-          <p data-i18n="home.feature3Text">Your achievement is the foundation of our success.</p>
+          <h3 data-i18n="home.professional3Title">Professional Support System</h3>
+          <p data-i18n="home.professional3Text">We provide clear communication, guidance, and resources so every partner can move forward with structure.</p>
+        </article>
+        <article class="feature-card professional-card">
+          <span>04</span>
+          <h3 data-i18n="home.professional4Title">Sustainable Business Values</h3>
+          <p data-i18n="home.professional4Text">We grow with integrity, teamwork, and a long-term mindset that protects trust and creates lasting impact.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section mission-vision-section" aria-labelledby="home-mission-vision-title">
+      <div class="mission-vision-heading">
+        <p class="eyebrow" data-i18n="home.mvEyebrow">Mission &amp; Vision</p>
+        <h2 id="home-mission-vision-title" data-i18n="home.mvTitle">Guided by purpose. Driven by lasting impact.</h2>
+        <p data-i18n="home.mvText">We move forward with a clear commitment to empower people, build trust, and create meaningful opportunities for every customer and partner.</p>
+      </div>
+      <div class="mission-vision-grid">
+        <article class="mission-vision-card mission-card">
+          <span class="card-label" data-i18n="about.missionEyebrow">Our Mission</span>
+          <h3 data-i18n="about.missionTitle">Empowering better health, financial freedom, and personal excellence.</h3>
+          <p data-i18n="about.missionText1">Our mission is to empower people around the world by providing high-quality wellness products, innovative business opportunities, and a supportive community that enables individuals to achieve better health, financial freedom, and personal excellence.</p>
+        </article>
+        <article class="mission-vision-card vision-card">
+          <span class="card-label" data-i18n="about.visionEyebrow">Our Vision</span>
+          <h3 data-i18n="about.visionTitle">A globally respected wellness and network marketing company.</h3>
+          <p data-i18n="about.visionText1">Our vision is to become a globally respected wellness and network marketing company that transforms lives by making health, wealth, and opportunity accessible to everyone.</p>
         </article>
       </div>
     </section>
@@ -123,6 +196,9 @@
       <h2 data-i18n="footer.socialMedia">Social Media</h2>
       <a class="social-icon" href="https://www.facebook.com/mygloryinternational" target="_blank" rel="noopener" aria-label="Facebook: MyGlory International"><img src="assets/images/fb.png" alt="Facebook"></a>
       <a class="social-icon" href="https://www.instagram.com/myglory_international_hq/" target="_blank" rel="noopener" aria-label="Instagram: myglory_international_hq"><img src="assets/images/ig.png" alt="Instagram"></a>
+    </div>
+    <div class="footer-copyright">
+      <p data-i18n="footer.copyright">&copy; 2026 MyGlory International Sdn Bhd. All rights reserved.</p>
     </div>
   </footer>
   <script src="assets/js/main.js"></script>

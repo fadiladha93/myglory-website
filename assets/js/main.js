@@ -25,8 +25,35 @@ const translations = {
     "home.feature2Text": "We believe every partner and customer should grow together with our vision.",
     "home.feature3Title": "Victory",
     "home.feature3Text": "Your achievement is the foundation of our success.",
+    "home.introLead": "We build long-term value through reliable products, ethical business practices, and a supportive platform designed for customers, members, and partners.",
+    "home.professional1Title": "Trusted Product Standards",
+    "home.professional1Text": "We prioritise consistent quality, dependable product value, and responsible presentation across every customer touchpoint.",
+    "home.professional2Title": "Member-Focused Growth",
+    "home.professional2Text": "Our community is built to help individuals develop confidence, leadership, and practical business momentum.",
+    "home.professional3Title": "Professional Support System",
+    "home.professional3Text": "We provide clear communication, guidance, and resources so every partner can move forward with structure.",
+    "home.professional4Title": "Sustainable Business Values",
+    "home.professional4Text": "We grow with integrity, teamwork, and a long-term mindset that protects trust and creates lasting impact.",
+    "home.mvEyebrow": "Mission & Vision",
+    "home.mvTitle": "Guided by purpose. Driven by lasting impact.",
+    "home.mvText": "We move forward with a clear commitment to empower people, build trust, and create meaningful opportunities for every customer and partner.",
     "home.ctaEyebrow": "Connect With Us",
     "home.ctaTitle": "Explore our products and latest company updates.",
+    "home.welcomeEyebrow": "Welcome",
+    "home.welcomeTitle": "Welcome to MyGlory International",
+    "home.welcomeText": "At MyGlory International, we are committed to creating a positive impact in the lives of individuals through quality wellness products and an empowering business opportunity. Join our growing community and discover how MyGlory can help you achieve better health, financial freedom, and personal growth.",
+    "home.learnMore": "LEARN MORE",
+    "home.whyEyebrow": "Why Choose Us",
+    "home.whyTitle": "Why Choose MyGlory International",
+    "home.whyText": "We combine trusted wellness solutions, people-first guidance, and a growth-focused business platform to help our community move forward with confidence.",
+    "home.usp1Title": "Premium Wellness Focus",
+    "home.usp1Text": "We focus on quality-driven wellness products designed to support healthier, more confident everyday living.",
+    "home.usp2Title": "Empowering Business Opportunity",
+    "home.usp2Text": "Our platform helps individuals build income potential, leadership skills, and long-term personal growth.",
+    "home.usp3Title": "Community With Purpose",
+    "home.usp3Text": "We grow through teamwork, mentorship, and shared success, creating a supportive environment for every member.",
+    "home.usp4Title": "Integrity-Led Growth",
+    "home.usp4Text": "We are guided by trust, professionalism, and sustainable strategies that create lasting value.",
     "about.eyebrow": "About Us",
     "about.title": "Building healthier lives and meaningful success.",
     "about.lead": "MyGlory International Sdn Bhd is a wellness and direct selling company committed to empowering people through quality products, entrepreneurship, and community.",
@@ -110,7 +137,8 @@ const translations = {
     "footer.helpCenter": "Help Center",
     "footer.socialMedia": "Social Media",
     "footer.privacyPolicy": "Privacy Policy",
-    "footer.termsConditions": "Terms & Conditions"
+    "footer.termsConditions": "Terms & Conditions",
+    "footer.copyright": "© 2026 MyGlory International Sdn Bhd. All rights reserved."
   },
   ms: {
     "language.label": "Bahasa",
@@ -138,8 +166,35 @@ const translations = {
     "home.feature2Text": "Kami percaya setiap rakan kongsi dan pelanggan harus berkembang bersama visi kami.",
     "home.feature3Title": "Kemenangan",
     "home.feature3Text": "Pencapaian anda ialah asas kepada kejayaan kami.",
+    "home.introLead": "Kami membina nilai jangka panjang melalui produk yang boleh dipercayai, amalan perniagaan beretika dan platform sokongan yang direka untuk pelanggan, ahli dan rakan kongsi.",
+    "home.professional1Title": "Standard Produk Dipercayai",
+    "home.professional1Text": "Kami mengutamakan kualiti yang konsisten, nilai produk yang boleh diharap dan penyampaian bertanggungjawab pada setiap titik hubungan pelanggan.",
+    "home.professional2Title": "Pertumbuhan Berfokuskan Ahli",
+    "home.professional2Text": "Komuniti kami dibina untuk membantu individu membangunkan keyakinan, kepimpinan dan momentum perniagaan yang praktikal.",
+    "home.professional3Title": "Sistem Sokongan Profesional",
+    "home.professional3Text": "Kami menyediakan komunikasi yang jelas, bimbingan dan sumber supaya setiap rakan kongsi boleh maju dengan struktur yang teratur.",
+    "home.professional4Title": "Nilai Perniagaan Mampan",
+    "home.professional4Text": "Kami berkembang dengan integriti, kerja berpasukan dan pemikiran jangka panjang yang melindungi kepercayaan serta mencipta impak berkekalan.",
+    "home.mvEyebrow": "Misi & Visi",
+    "home.mvTitle": "Dipandu oleh tujuan. Digerakkan oleh impak yang berkekalan.",
+    "home.mvText": "Kami bergerak ke hadapan dengan komitmen yang jelas untuk memperkasa masyarakat, membina kepercayaan dan mencipta peluang bermakna untuk setiap pelanggan dan rakan kongsi.",
     "home.ctaEyebrow": "Berhubung Dengan Kami",
     "home.ctaTitle": "Terokai produk kami dan kemas kini syarikat terkini.",
+    "home.welcomeEyebrow": "Selamat Datang",
+    "home.welcomeTitle": "Selamat datang ke MyGlory International",
+    "home.welcomeText": "Di MyGlory International, kami komited untuk mencipta impak positif dalam kehidupan individu melalui produk kesejahteraan berkualiti dan peluang perniagaan yang memperkasa. Sertai komuniti kami yang semakin berkembang dan ketahui bagaimana MyGlory boleh membantu anda mencapai kesihatan yang lebih baik, kebebasan kewangan dan pertumbuhan peribadi.",
+    "home.learnMore": "KETAHUI LEBIH LANJUT",
+    "home.whyEyebrow": "Mengapa Pilih Kami",
+    "home.whyTitle": "Mengapa Pilih MyGlory International",
+    "home.whyText": "Kami menggabungkan penyelesaian kesejahteraan yang dipercayai, bimbingan mengutamakan manusia dan platform perniagaan berfokuskan pertumbuhan untuk membantu komuniti kami maju dengan yakin.",
+    "home.usp1Title": "Fokus Kesejahteraan Premium",
+    "home.usp1Text": "Kami menumpukan pada produk kesejahteraan berasaskan kualiti yang direka untuk menyokong kehidupan harian yang lebih sihat dan lebih yakin.",
+    "home.usp2Title": "Peluang Perniagaan Memperkasa",
+    "home.usp2Text": "Platform kami membantu individu membina potensi pendapatan, kemahiran kepimpinan dan pertumbuhan peribadi jangka panjang.",
+    "home.usp3Title": "Komuniti Dengan Tujuan",
+    "home.usp3Text": "Kami berkembang melalui kerja berpasukan, bimbingan dan kejayaan bersama, sambil mencipta persekitaran sokongan untuk setiap ahli.",
+    "home.usp4Title": "Pertumbuhan Berasaskan Integriti",
+    "home.usp4Text": "Kami dipandu oleh kepercayaan, profesionalisme dan strategi mampan yang mencipta nilai berkekalan.",
     "about.eyebrow": "Tentang Kami",
     "about.title": "Membina kehidupan lebih sihat dan kejayaan yang bermakna.",
     "about.lead": "MyGlory International Sdn Bhd ialah sebuah syarikat kesejahteraan dan jualan langsung yang komited memperkasa masyarakat melalui produk berkualiti, keusahawanan dan komuniti.",
@@ -223,7 +278,8 @@ const translations = {
     "footer.helpCenter": "Pusat Bantuan",
     "footer.socialMedia": "Media Sosial",
     "footer.privacyPolicy": "Polisi Privasi",
-    "footer.termsConditions": "Terma & Syarat"
+    "footer.termsConditions": "Terma & Syarat",
+    "footer.copyright": "© 2026 MyGlory International Sdn Bhd. Hak cipta terpelihara."
   },
   zh: {
     "language.label": "语言",
@@ -251,8 +307,35 @@ const translations = {
     "home.feature2Text": "我们相信每一位伙伴和客户都应与我们的愿景一同成长。",
     "home.feature3Title": "胜利",
     "home.feature3Text": "您的成就是我们成功的基础。",
+    "home.introLead": "我们通过可靠的产品、合乎道德的商业实践，以及为客户、会员和伙伴设计的支持平台，创造长期价值。",
+    "home.professional1Title": "值得信赖的产品标准",
+    "home.professional1Text": "我们重视稳定品质、可靠产品价值，并在每个客户接触点保持负责任的呈现。",
+    "home.professional2Title": "以会员成长为中心",
+    "home.professional2Text": "我们的社群旨在帮助个人建立信心、领导力和实际的业务成长动力。",
+    "home.professional3Title": "专业支持系统",
+    "home.professional3Text": "我们提供清晰沟通、指导和资源，让每一位伙伴都能有结构地向前发展。",
+    "home.professional4Title": "可持续商业价值",
+    "home.professional4Text": "我们以诚信、团队合作和长期思维成长，守护信任并创造持久影响。",
+    "home.mvEyebrow": "使命与愿景",
+    "home.mvTitle": "以目标为指引，以长远影响为动力。",
+    "home.mvText": "我们以清晰的承诺持续前进，赋能大众、建立信任，并为每一位客户和伙伴创造有意义的机会。",
     "home.ctaEyebrow": "与我们联系",
     "home.ctaTitle": "探索我们的产品和最新公司动态。",
+    "home.welcomeEyebrow": "欢迎",
+    "home.welcomeTitle": "欢迎来到 MyGlory International",
+    "home.welcomeText": "在 MyGlory International，我们致力于通过优质健康产品和赋能型商业机会，为个人生活带来积极影响。加入我们不断成长的社群，了解 MyGlory 如何帮助您实现更好的健康、财务自由和个人成长。",
+    "home.learnMore": "了解更多",
+    "home.whyEyebrow": "为什么选择我们",
+    "home.whyTitle": "为什么选择 MyGlory International",
+    "home.whyText": "我们结合值得信赖的健康解决方案、以人为本的指导和注重成长的商业平台，帮助社群自信前行。",
+    "home.usp1Title": "专注优质健康",
+    "home.usp1Text": "我们专注于以品质为核心的健康产品，支持更健康、更自信的日常生活。",
+    "home.usp2Title": "赋能商业机会",
+    "home.usp2Text": "我们的平台帮助个人建立收入潜力、领导能力和长期个人成长。",
+    "home.usp3Title": "有使命感的社群",
+    "home.usp3Text": "我们通过团队合作、导师指导和共同成功来成长，为每一位成员创造支持性的环境。",
+    "home.usp4Title": "诚信引领成长",
+    "home.usp4Text": "我们以信任、专业精神和可持续策略为指引，创造长久价值。",
     "about.eyebrow": "关于我们",
     "about.title": "打造更健康的生活与有意义的成功。",
     "about.lead": "MyGlory International Sdn Bhd 是一家健康保健与直销公司，致力于通过优质产品、创业机会和社群力量赋能大众。",
@@ -336,7 +419,8 @@ const translations = {
     "footer.helpCenter": "帮助中心",
     "footer.socialMedia": "社交媒体",
     "footer.privacyPolicy": "隐私政策",
-    "footer.termsConditions": "条款与条件"
+    "footer.termsConditions": "条款与条件",
+    "footer.copyright": "© 2026 MyGlory International Sdn Bhd. 版权所有。"
   },
   ta: {
     "language.label": "மொழி",
@@ -364,8 +448,35 @@ const translations = {
     "home.feature2Text": "ஒவ்வொரு கூட்டாளரும் வாடிக்கையாளரும் எங்கள் நோக்கத்துடன் சேர்ந்து வளர வேண்டும் என்று நம்புகிறோம்.",
     "home.feature3Title": "வெற்றி",
     "home.feature3Text": "உங்கள் சாதனையே எங்கள் வெற்றியின் அடித்தளம்.",
+    "home.introLead": "நம்பகமான தயாரிப்புகள், நெறிமுறை வணிக நடைமுறைகள் மற்றும் வாடிக்கையாளர்கள், உறுப்பினர்கள், கூட்டாளர்களுக்காக வடிவமைக்கப்பட்ட ஆதரவு தளத்தின் மூலம் நீண்டகால மதிப்பை உருவாக்குகிறோம்.",
+    "home.professional1Title": "நம்பகமான தயாரிப்பு தரநிலைகள்",
+    "home.professional1Text": "ஒவ்வொரு வாடிக்கையாளர் தொடர்பிலும் நிலையான தரம், நம்பகமான தயாரிப்பு மதிப்பு மற்றும் பொறுப்பான விளக்கத்தை முன்னுரிமைப்படுத்துகிறோம்.",
+    "home.professional2Title": "உறுப்பினர் மைய வளர்ச்சி",
+    "home.professional2Text": "நம்பிக்கை, தலைமைத்துவம் மற்றும் நடைமுறை வணிக முன்னேற்றத்தை உருவாக்க நபர்களுக்கு உதவும் வகையில் எங்கள் சமூகத்தை உருவாக்கியுள்ளோம்.",
+    "home.professional3Title": "தொழில்முறை ஆதரவு அமைப்பு",
+    "home.professional3Text": "ஒவ்வொரு கூட்டாளரும் தெளிவான அமைப்புடன் முன்னேற தெளிவான தொடர்பு, வழிகாட்டுதல் மற்றும் வளங்களை வழங்குகிறோம்.",
+    "home.professional4Title": "நிலையான வணிக மதிப்புகள்",
+    "home.professional4Text": "நம்பிக்கையை பாதுகாத்து நீடித்த தாக்கத்தை உருவாக்கும் நேர்மை, குழுப்பணி மற்றும் நீண்டகால சிந்தனையுடன் வளர்கிறோம்.",
+    "home.mvEyebrow": "பணி & பார்வை",
+    "home.mvTitle": "நோக்கத்தால் வழிநடத்தப்பட்டு, நிலையான தாக்கத்தால் முன்னேறுகிறோம்.",
+    "home.mvText": "மக்களை வலுப்படுத்த, நம்பிக்கையை உருவாக்க, ஒவ்வொரு வாடிக்கையாளருக்கும் கூட்டாளருக்கும் அர்த்தமுள்ள வாய்ப்புகளை உருவாக்க தெளிவான உறுதியுடன் முன்னேறுகிறோம்.",
     "home.ctaEyebrow": "எங்களுடன் இணையுங்கள்",
     "home.ctaTitle": "எங்கள் தயாரிப்புகளையும் சமீபத்திய நிறுவன புதுப்பிப்புகளையும் அறியுங்கள்.",
+    "home.welcomeEyebrow": "வரவேற்கிறோம்",
+    "home.welcomeTitle": "MyGlory International-க்கு வரவேற்கிறோம்",
+    "home.welcomeText": "MyGlory International-ல், தரமான ஆரோக்கிய தயாரிப்புகள் மற்றும் வலுப்படுத்தும் வணிக வாய்ப்பின் மூலம் தனிநபர்களின் வாழ்க்கையில் நேர்மறையான தாக்கத்தை உருவாக்க நாங்கள் உறுதிபூண்டுள்ளோம். எங்கள் வளர்ந்து வரும் சமூகத்தில் இணையுங்கள்; மேம்பட்ட ஆரோக்கியம், நிதி சுதந்திரம் மற்றும் தனிப்பட்ட வளர்ச்சியை அடைய MyGlory எவ்வாறு உதவ முடியும் என்பதை அறியுங்கள்.",
+    "home.learnMore": "மேலும் அறிய",
+    "home.whyEyebrow": "ஏன் எங்களைத் தேர்வு செய்ய வேண்டும்",
+    "home.whyTitle": "ஏன் MyGlory International-ஐ தேர்வு செய்ய வேண்டும்",
+    "home.whyText": "நம்பகமான ஆரோக்கிய தீர்வுகள், மக்களை முதன்மைப்படுத்தும் வழிகாட்டுதல் மற்றும் வளர்ச்சியை மையமாகக் கொண்ட வணிக தளத்தை இணைத்து, எங்கள் சமூகத்தை நம்பிக்கையுடன் முன்னேற உதவுகிறோம்.",
+    "home.usp1Title": "உயர்தர ஆரோக்கிய கவனம்",
+    "home.usp1Text": "மேலும் ஆரோக்கியமான, நம்பிக்கையுள்ள தினசரி வாழ்க்கையை ஆதரிக்க வடிவமைக்கப்பட்ட தரமான ஆரோக்கிய தயாரிப்புகளில் கவனம் செலுத்துகிறோம்.",
+    "home.usp2Title": "வலுப்படுத்தும் வணிக வாய்ப்பு",
+    "home.usp2Text": "எங்கள் தளம் வருமான வாய்ப்பு, தலைமைத்துவ திறன் மற்றும் நீண்டகால தனிப்பட்ட வளர்ச்சியை உருவாக்க நபர்களுக்கு உதவுகிறது.",
+    "home.usp3Title": "நோக்கமுள்ள சமூகத்துடன் வளர்ச்சி",
+    "home.usp3Text": "குழுப்பணி, வழிகாட்டுதல் மற்றும் பகிர்ந்த வெற்றியின் மூலம் வளர்ந்து, ஒவ்வொரு உறுப்பினருக்கும் ஆதரவான சூழலை உருவாக்குகிறோம்.",
+    "home.usp4Title": "நேர்மையால் வழிநடத்தப்படும் வளர்ச்சி",
+    "home.usp4Text": "நம்பிக்கை, தொழில்முறைத் தன்மை மற்றும் நிலையான திட்டங்கள் மூலம் நீடித்த மதிப்பை உருவாக்குகிறோம்.",
     "about.eyebrow": "எங்களைப் பற்றி",
     "about.title": "ஆரோக்கியமான வாழ்க்கையையும் அர்த்தமுள்ள வெற்றியையும் உருவாக்குகிறோம்.",
     "about.lead": "MyGlory International Sdn Bhd என்பது தரமான தயாரிப்புகள், தொழில்முனைவு மற்றும் சமூகத்தின் மூலம் மக்களை வலுப்படுத்த உறுதிபூண்டுள்ள ஆரோக்கிய மற்றும் நேரடி விற்பனை நிறுவனம்.",
@@ -449,7 +560,8 @@ const translations = {
     "footer.helpCenter": "உதவி மையம்",
     "footer.socialMedia": "சமூக ஊடகம்",
     "footer.privacyPolicy": "தனியுரிமைக் கொள்கை",
-    "footer.termsConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+    "footer.termsConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+    "footer.copyright": "© 2026 MyGlory International Sdn Bhd. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
   },
   ar: {
     "language.label": "اللغة",
@@ -477,8 +589,35 @@ const translations = {
     "home.feature2Text": "نؤمن بأن كل شريك وعميل يجب أن ينمو معنا وفق رؤيتنا.",
     "home.feature3Title": "الانتصار",
     "home.feature3Text": "إنجازكم هو أساس نجاحنا.",
+    "home.introLead": "نبني قيمة طويلة الأمد من خلال منتجات موثوقة، وممارسات أعمال أخلاقية، ومنصة داعمة مصممة للعملاء والأعضاء والشركاء.",
+    "home.professional1Title": "معايير منتجات موثوقة",
+    "home.professional1Text": "نمنح الأولوية للجودة المستمرة، وقيمة المنتج الموثوقة، والعرض المسؤول في كل نقطة تواصل مع العملاء.",
+    "home.professional2Title": "نمو يركز على الأعضاء",
+    "home.professional2Text": "تم بناء مجتمعنا لمساعدة الأفراد على تطوير الثقة والقيادة والزخم العملي في الأعمال.",
+    "home.professional3Title": "نظام دعم احترافي",
+    "home.professional3Text": "نوفر تواصلًا واضحًا وإرشادًا وموارد حتى يتمكن كل شريك من التقدم بهيكلية واضحة.",
+    "home.professional4Title": "قيم أعمال مستدامة",
+    "home.professional4Text": "ننمو بالنزاهة والعمل الجماعي وعقلية طويلة الأمد تحمي الثقة وتخلق أثرًا مستدامًا.",
+    "home.mvEyebrow": "المهمة والرؤية",
+    "home.mvTitle": "نسترشد بالهدف وندفع نحو أثر مستدام.",
+    "home.mvText": "نمضي قدمًا بالتزام واضح لتمكين الناس، وبناء الثقة، وخلق فرص ذات معنى لكل عميل وشريك.",
     "home.ctaEyebrow": "تواصلوا معنا",
     "home.ctaTitle": "استكشفوا منتجاتنا وآخر تحديثات الشركة.",
+    "home.welcomeEyebrow": "مرحبًا",
+    "home.welcomeTitle": "مرحبًا بكم في MyGlory International",
+    "home.welcomeText": "في MyGlory International، نلتزم بإحداث أثر إيجابي في حياة الأفراد من خلال منتجات صحية عالية الجودة وفرصة أعمال تمكينية. انضموا إلى مجتمعنا المتنامي واكتشفوا كيف يمكن لـ MyGlory مساعدتكم على تحقيق صحة أفضل وحرية مالية ونمو شخصي.",
+    "home.learnMore": "اعرف المزيد",
+    "home.whyEyebrow": "لماذا تختاروننا",
+    "home.whyTitle": "لماذا تختارون MyGlory International",
+    "home.whyText": "نجمع بين حلول صحية موثوقة، وإرشاد يضع الناس أولًا، ومنصة أعمال تركز على النمو لمساعدة مجتمعنا على التقدم بثقة.",
+    "home.usp1Title": "تركيز صحي متميز",
+    "home.usp1Text": "نركز على منتجات صحية قائمة على الجودة ومصممة لدعم حياة يومية أكثر صحة وثقة.",
+    "home.usp2Title": "فرصة أعمال تمكينية",
+    "home.usp2Text": "تساعد منصتنا الأفراد على بناء فرص الدخل، ومهارات القيادة، والنمو الشخصي طويل الأمد.",
+    "home.usp3Title": "مجتمع ذو هدف",
+    "home.usp3Text": "ننمو من خلال العمل الجماعي، والإرشاد، والنجاح المشترك، ونوفر بيئة داعمة لكل عضو.",
+    "home.usp4Title": "نمو تقوده النزاهة",
+    "home.usp4Text": "نسترشد بالثقة والمهنية والاستراتيجيات المستدامة لصناعة قيمة دائمة.",
     "about.eyebrow": "من نحن",
     "about.title": "نبني حياة أكثر صحة ونجاحًا ذا معنى.",
     "about.lead": "MyGlory International Sdn Bhd هي شركة للصحة والبيع المباشر ملتزمة بتمكين الناس من خلال المنتجات عالية الجودة وريادة الأعمال والمجتمع.",
@@ -562,13 +701,24 @@ const translations = {
     "footer.helpCenter": "مركز المساعدة",
     "footer.socialMedia": "وسائل التواصل الاجتماعي",
     "footer.privacyPolicy": "سياسة الخصوصية",
-    "footer.termsConditions": "الشروط والأحكام"
+    "footer.termsConditions": "الشروط والأحكام",
+    "footer.copyright": "© 2026 MyGlory International Sdn Bhd. جميع الحقوق محفوظة."
   }
 };
 
 const languageSwitcher = document.querySelector("#language-switcher");
 const menuToggle = document.querySelector(".menu-toggle");
 const navPanel = document.querySelector(".nav-panel");
+const dropdowns = document.querySelectorAll(".dropdown");
+
+function closeDropdowns(exceptDropdown) {
+  dropdowns.forEach((dropdown) => {
+    if (dropdown !== exceptDropdown) {
+      dropdown.classList.remove("open");
+      dropdown.querySelector(".dropdown-toggle")?.setAttribute("aria-expanded", "false");
+    }
+  });
+}
 
 function translatePage(language) {
   const dictionary = translations[language] || translations.en;
@@ -607,5 +757,34 @@ if (menuToggle && navPanel) {
   menuToggle.addEventListener("click", () => {
     const isOpen = navPanel.classList.toggle("open");
     menuToggle.setAttribute("aria-expanded", String(isOpen));
+
+    if (!isOpen) {
+      closeDropdowns();
+    }
   });
 }
+
+dropdowns.forEach((dropdown) => {
+  const dropdownToggle = dropdown.querySelector(".dropdown-toggle");
+
+  if (dropdownToggle) {
+    dropdownToggle.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const isOpen = dropdown.classList.toggle("open");
+      dropdownToggle.setAttribute("aria-expanded", String(isOpen));
+      closeDropdowns(dropdown);
+    });
+  }
+});
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".dropdown")) {
+    closeDropdowns();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeDropdowns();
+  }
+});
