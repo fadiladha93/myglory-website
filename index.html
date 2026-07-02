@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyGlory International Sdn Bhd</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+  <div class="front-logo-banner">
+    <img src="assets/images/headerbanner.png" alt="MyGlory International Sdn Bhd banner">
+  </div>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="MyGlory International home">
+        <img src="assets/images/logo.png" alt="MyGlory International logo">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+      <div class="nav-panel" id="primary-menu">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+          <li><a href="product.html" data-i18n="nav.product">Product</a></li>
+          <li class="dropdown">
+            <button class="dropdown-toggle" type="button" data-i18n="nav.media">Media</button>
+            <div class="dropdown-menu">
+              <a href="news.html" data-i18n="nav.news">News</a>
+              <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+            </div>
+          </li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
+          <li><a class="login-link" href="/MemberLounge/index.asp" data-i18n="nav.login">Login</a></li>
+        </ul>
+        <label class="language-select">
+          <span data-i18n="language.label">Language</span>
+          <select id="language-switcher" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="ms">Bahasa Melayu</option>
+            <option value="zh">中文</option>
+            <option value="ta">தமிழ்</option>
+            <option value="ar">العربية</option>
+          </select>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Cyberjaya, Malaysia</p>
+        <h1 data-i18n="hero.title">Welcome to MyGlory International Sdn Bhd</h1>
+        <p class="motto" data-i18n="hero.motto">Your Glory, Our Victory</p>
+        <p class="hero-text" data-i18n="hero.text">Based in Cyberjaya, we are committed to delivering quality, trust, and meaningful growth.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="about.html" data-i18n="common.discover">Discover More</a>
+          <a class="btn btn-secondary" href="contact.html" data-i18n="common.contact">Contact Us</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Company motto">
+        <img src="assets/images/logo.png" alt="MyGlory International logo">
+        <p data-i18n="hero.cardTitle">MyGlory International Sdn Bhd</p>
+        <strong data-i18n="hero.motto">Your Glory, Our Victory</strong>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.introEyebrow">Who We Are</p>
+        <h2 data-i18n="home.introTitle">A company built on trust, ambition, and shared success.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span>01</span>
+          <h3 data-i18n="home.feature1Title">Quality</h3>
+          <p data-i18n="home.feature1Text">We focus on dependable products, professional service, and long-term value.</p>
+        </article>
+        <article class="feature-card">
+          <span>02</span>
+          <h3 data-i18n="home.feature2Title">Growth</h3>
+          <p data-i18n="home.feature2Text">We believe every partner and customer should grow together with our vision.</p>
+        </article>
+        <article class="feature-card">
+          <span>03</span>
+          <h3 data-i18n="home.feature3Title">Victory</h3>
+          <p data-i18n="home.feature3Text">Your achievement is the foundation of our success.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div>
+        <p class="eyebrow" data-i18n="home.ctaEyebrow">Connect With Us</p>
+        <h2 data-i18n="home.ctaTitle">Explore our products and latest company updates.</h2>
+      </div>
+      <a class="btn btn-primary" href="product.html" data-i18n="common.viewProducts">View Products</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="MyGlory International logo">
+      <p>MyGlory International Sdn Bhd</p>
+      <small data-i18n="footer.address">Cyberjaya, Malaysia</small>
+    </div>
+    <div class="footer-column">
+      <h2 data-i18n="footer.quickLinks">Quick Link</h2>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="about.html" data-i18n="nav.about">About Us</a>
+      <a href="product.html" data-i18n="nav.product">Product</a>
+      <a href="news.html" data-i18n="nav.news">News</a>
+      <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+      <a href="/MemberLounge/index.asp" data-i18n="nav.login">Login</a>
+    </div>
+    <div class="footer-column">
+      <h2 data-i18n="footer.helpCenter">Help Center</h2>
+      <a href="privacy-policy.html" data-i18n="footer.privacyPolicy">Privacy Policy</a>
+      <a href="terms-conditions.html" data-i18n="footer.termsConditions">Terms &amp; Conditions</a>
+    </div>
+    <div class="footer-column social-links">
+      <h2 data-i18n="footer.socialMedia">Social Media</h2>
+      <a class="social-icon" href="https://www.facebook.com/mygloryinternational" target="_blank" rel="noopener" aria-label="Facebook: MyGlory International"><img src="assets/images/fb.png" alt="Facebook"></a>
+      <a class="social-icon" href="https://www.instagram.com/myglory_international_hq/" target="_blank" rel="noopener" aria-label="Instagram: myglory_international_hq"><img src="assets/images/ig.png" alt="Instagram"></a>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
