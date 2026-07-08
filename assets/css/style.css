@@ -232,10 +232,17 @@ img {
 .login-logo {
   display: inline-flex;
   width: 80%;
+  max-width: 320px;
   justify-self: center;
   padding: 12px 16px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.92);
+}
+
+.login-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .login-card h1 {
@@ -1611,6 +1618,12 @@ img {
     border-radius: 26px;
   }
 
+  .login-logo {
+    width: 88%;
+    max-width: 260px;
+    padding: 10px 14px;
+  }
+
   .navbar {
     width: min(100% - 24px, 1180px);
   }
@@ -1706,6 +1719,10 @@ img {
 }
 
 @media (max-width: 380px) {
+  .login-logo {
+    width: 92%;
+  }
+
   .navbar {
     gap: 8px;
   }
