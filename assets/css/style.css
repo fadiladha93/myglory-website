@@ -231,7 +231,8 @@ img {
 
 .login-logo {
   display: inline-flex;
-  width: 150px;
+  width: 80%;
+  justify-self: center;
   padding: 12px 16px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.92);
