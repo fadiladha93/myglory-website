@@ -198,6 +198,116 @@ img {
   background: rgba(215, 173, 66, 0.18) !important;
 }
 
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(6, 19, 41, 0.78), rgba(6, 19, 41, 0.42)),
+    url("../images/login_bg.png") center center / cover no-repeat;
+}
+
+.login-screen {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  place-items: center;
+  padding: clamp(24px, 5vw, 64px);
+}
+
+.login-card {
+  display: grid;
+  width: min(100%, 430px);
+  gap: 18px;
+  padding: clamp(28px, 5vw, 44px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 32px;
+  background: rgba(6, 19, 41, 0.68);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(16px);
+}
+
+.login-logo {
+  display: inline-flex;
+  width: 150px;
+  padding: 12px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.login-card h1 {
+  color: var(--white);
+}
+
+.login-intro {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.login-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.login-form label {
+  display: grid;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
+.login-form input {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.12);
+  font: inherit;
+  outline: 0;
+}
+
+.login-form input::placeholder {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.login-form input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 4px rgba(215, 173, 66, 0.16);
+}
+
+.login-form .btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.forgot-password-link {
+  justify-self: end;
+  color: var(--gold-light);
+  font-size: 0.94rem;
+  font-weight: 800;
+}
+
+.forgot-password-link:hover {
+  color: var(--white);
+}
+
+.login-back-link {
+  justify-self: center;
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 700;
+}
+
+.login-back-link:hover {
+  color: var(--gold-light);
+}
+
 .dropdown {
   position: relative;
 }
@@ -906,6 +1016,66 @@ img {
   object-position: bottom center;
 }
 
+.executive-team-panel {
+  grid-template-columns: 1fr;
+}
+
+.executive-team-panel.is-hidden {
+  display: none;
+}
+
+.executive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.executive-card {
+  display: grid;
+  gap: 14px;
+  text-align: center;
+}
+
+.executive-photo,
+.executive-photo-placeholder {
+  display: grid;
+  aspect-ratio: 4 / 5;
+  place-items: center;
+  border-radius: 26px;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(16, 43, 87, 0.06), rgba(215, 173, 66, 0.1)),
+    var(--soft-white);
+}
+
+.executive-photo {
+  border: 1px solid rgba(16, 43, 87, 0.1);
+}
+
+.executive-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+}
+
+.executive-photo-placeholder {
+  border: 1px dashed rgba(16, 43, 87, 0.22);
+  color: rgba(16, 43, 87, 0.56);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.executive-card .eyebrow {
+  justify-self: center;
+  margin-top: 8px;
+}
+
+.executive-card h2 {
+  font-size: clamp(1.3rem, 2vw, 1.9rem);
+}
+
 .product-card {
   overflow: hidden;
 }
@@ -1362,6 +1532,10 @@ img {
     order: 0;
   }
 
+  .executive-grid {
+    gap: 18px;
+  }
+
   .welcome-content .btn {
     justify-self: start;
   }
@@ -1423,6 +1597,19 @@ img {
 }
 
 @media (max-width: 640px) {
+  .login-page {
+    background-attachment: scroll;
+  }
+
+  .login-screen {
+    align-items: end;
+    padding: 18px;
+  }
+
+  .login-card {
+    border-radius: 26px;
+  }
+
   .navbar {
     width: min(100% - 24px, 1180px);
   }
@@ -1479,6 +1666,15 @@ img {
 
   .professional-grid {
     grid-template-columns: 1fr;
+  }
+
+  .executive-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .executive-photo,
+  .executive-photo-placeholder {
+    aspect-ratio: 16 / 11;
   }
 
   .front-logo-banner {
