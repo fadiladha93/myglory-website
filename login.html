@@ -12,28 +12,27 @@
       <a class="login-logo" href="index.html" aria-label="Back to MyGlory International home">
         <img src="assets/images/logo.png" alt="MyGlory International logo">
       </a>
-      <h1 id="login-title">Member Login</h1>
-      <p class="login-intro">Dummy login page for MyGlory International member access.</p>
-
+      <h1 id="login-title" data-i18n="login.title">Member Login</h1>
       <form class="login-form" action="#" method="post">
         <label>
-          <span>Username</span>
-          <input type="text" name="username" placeholder="Enter username" autocomplete="username">
+          <span data-i18n="login.username">Username</span>
+          <input type="text" name="username" placeholder="Enter username" autocomplete="username" data-i18n-placeholder="login.usernamePlaceholder">
         </label>
         <label>
-          <span>Password</span>
-          <input type="password" name="password" placeholder="Enter password" autocomplete="current-password">
+          <span data-i18n="login.password">Password</span>
+          <input type="password" name="password" placeholder="Enter password" autocomplete="current-password" data-i18n-placeholder="login.passwordPlaceholder">
         </label>
         <label>
-          <span>Security Code</span>
-          <input type="text" name="security-code" placeholder="Enter security code" inputmode="numeric" autocomplete="one-time-code">
+          <span data-i18n="login.securityCode">Security Code</span>
+          <input type="text" name="security-code" placeholder="Enter security code" inputmode="numeric" autocomplete="one-time-code" data-i18n-placeholder="login.securityCodePlaceholder">
         </label>
-        <button class="btn btn-primary" type="button">Login</button>
+        <button class="btn btn-primary" type="button" data-i18n="login.submit">Login</button>
       </form>
 
-      <a class="forgot-password-link" href="#">Forgot Password?</a>
-      <a class="login-back-link" href="index.html">Back to Home</a>
+      <a class="forgot-password-link" href="#" data-i18n="login.forgotPassword">Forgot Password?</a>
+      <a class="login-back-link" href="index.html" data-i18n="login.backHome">Back to Home</a>
     </section>
   </main>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

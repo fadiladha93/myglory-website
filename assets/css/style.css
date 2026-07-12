@@ -71,23 +71,30 @@ img {
 }
 
 .founder-slideshow img {
-  animation: founderSlide 8s infinite;
+  animation: founderSlide 12s infinite;
 }
 
-.founder-slideshow img:nth-child(2) {
+.founder-slideshow img:nth-child(n + 2) {
   position: absolute;
   inset: 0;
   opacity: 0;
+}
+
+.founder-slideshow img:nth-child(2) {
   animation-delay: 4s;
+}
+
+.founder-slideshow img:nth-child(3) {
+  animation-delay: 8s;
 }
 
 @keyframes founderSlide {
   0%,
-  45% {
+  28% {
     opacity: 1;
   }
 
-  50%,
+  34%,
   95% {
     opacity: 0;
   }
@@ -435,7 +442,7 @@ img {
 .eyebrow {
   margin: 0 0 12px;
   color: var(--gold);
-  font-size: 0.82rem;
+  font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1024,8 +1031,24 @@ img {
   object-position: bottom center;
 }
 
+.leader-panel > div:last-child > .eyebrow,
+.executive-card .eyebrow {
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+}
+
 .executive-team-panel {
   grid-template-columns: 1fr;
+}
+
+.executive-heading {
+  display: grid;
+  gap: 10px;
+  text-align: center;
+}
+
+.executive-heading .eyebrow {
+  justify-self: center;
 }
 
 .executive-team-panel.is-hidden {
@@ -1084,6 +1107,14 @@ img {
   font-size: clamp(1.3rem, 2vw, 1.9rem);
 }
 
+.executive-message {
+  max-width: 34rem;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
 .product-card {
   overflow: hidden;
 }
@@ -1115,6 +1146,7 @@ img {
 .product-image {
   min-height: 320px;
   padding: 18px;
+  background: var(--white);
 }
 
 .product-image img {
@@ -1137,15 +1169,17 @@ img {
   background: var(--white);
 }
 
+.shila-product-layout {
+  align-items: start;
+}
+
 .product-detail-image {
   display: grid;
   place-items: center;
   min-height: 520px;
   padding: 24px;
   border-radius: 34px;
-  background:
-    radial-gradient(circle at 50% 28%, rgba(215, 173, 66, 0.18), transparent 34%),
-    linear-gradient(135deg, #f9fbff, #edf3fb);
+  background: var(--white);
 }
 
 .product-detail-image img {
@@ -1190,6 +1224,35 @@ img {
 .detail-info-grid p {
   margin: 0;
   color: var(--muted);
+}
+
+.shila-detail-grid {
+  grid-template-columns: 1fr;
+}
+
+.product-detail-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-inline-start: 20px;
+  color: var(--muted);
+}
+
+.product-detail-list li::marker {
+  color: var(--gold);
+  font-weight: 800;
+}
+
+.benefit-list {
+  gap: 12px;
+}
+
+.technology-card {
+  background: var(--white);
+}
+
+.technology-card strong {
+  color: var(--blue-950);
 }
 
 .news-list {
