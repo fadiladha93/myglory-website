@@ -1159,6 +1159,18 @@ img {
 
 .product-detail-hero h1 {
   color: var(--white);
+  font-size: clamp(1.9rem, 4vw, 3.25rem);
+}
+
+.product-detail-hero {
+  padding-top: 72px;
+  padding-bottom: 56px;
+}
+
+.product-detail-hero p {
+  max-width: 620px;
+  margin-top: 12px;
+  font-size: clamp(0.96rem, 1.15vw, 1.04rem);
 }
 
 .product-detail-layout {
@@ -1727,6 +1739,11 @@ img {
 
   .product-image {
     min-height: 260px;
+  }
+
+  .product-detail-hero {
+    padding-top: 44px;
+    padding-bottom: 38px;
   }
 
   .product-detail-image {
