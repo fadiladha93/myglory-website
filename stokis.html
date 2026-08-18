@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GloreaCream+ | MyGlory International Sdn Bhd</title>
+  <title>Stokis List | MyGlory International Sdn Bhd</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-page="product-detail">
+<body data-page="stokis">
   <header class="site-header">
     <nav class="navbar" aria-label="Main navigation">
       <a class="brand" href="index.html" aria-label="MyGlory International home">
@@ -17,7 +17,7 @@
         <ul class="nav-links">
           <li><a href="index.html" data-i18n="nav.home">Home</a></li>
           <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
-          <li><a class="active" href="product.html" data-i18n="nav.product">Product</a></li>
+          <li><a href="product.html" data-i18n="nav.product">Product</a></li>
           <li class="dropdown">
             <button class="dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="media-submenu" data-i18n="nav.media">Media</button>
             <div class="dropdown-menu" id="media-submenu">
@@ -27,9 +27,9 @@
           </li>
           <li><a href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
           <li class="dropdown">
-            <button class="dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="stokis-submenu" data-i18n="nav.stokis">Stokis List</button>
+            <button class="dropdown-toggle active" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="stokis-submenu" data-i18n="nav.stokis">Stokis List</button>
             <div class="dropdown-menu" id="stokis-submenu">
-              <a href="stokis.html#master" data-i18n="nav.masterStokis">Master Stokis</a>
+              <a class="active" href="stokis.html#master" data-i18n="nav.masterStokis">Master Stokis</a>
               <a href="stokis.html#mobile" data-i18n="nav.mobileStokis">Mobile Stokis</a>
             </div>
           </li>
@@ -50,48 +50,49 @@
   </header>
 
   <main>
-    <section class="page-hero product-detail-hero">
-      <p class="eyebrow" data-i18n="product.categoryBeauty">Beauty Product</p>
-      <h1 data-i18n="product.gloreaName">GloreaCream+</h1>
-      <p data-i18n="detail.gloreaHeroLead">Ketahui formulasi, bahan utama, manfaat, dan maklumat produk GloreaCream+.</p>
+    <section class="page-hero">
+      <p class="eyebrow" data-i18n="stokis.eyebrow">Stokis List</p>
+      <h1 data-i18n="stokis.title">Find your nearest MyGlory stokis.</h1>
+      <p data-i18n="stokis.lead">Browse our official Master Stokis by state and Mobile Stokis by parliamentary constituency.</p>
     </section>
 
-    <section class="section product-detail-layout shila-product-layout">
-      <div class="product-detail-image">
-        <img src="assets/images/glorea.png" alt="GloreaCream+ product">
+    <section class="section" id="master" aria-labelledby="master-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="stokis.masterEyebrow">MASTER STOKIS</p>
+        <h2 id="master-title" data-i18n="stokis.masterTitle">Master Stokis by State</h2>
+        <p class="section-lead" data-i18n="stokis.masterText">Our official Master Stokis are organised by state for your convenience.</p>
       </div>
-      <div class="product-detail-content">
-        <p class="eyebrow" data-i18n="detail.overview">Gambaran Keseluruhan</p>
-        <h2>GloreaCream+</h2>
-        <p data-i18n="detail.gloreaOverviewFull">GloreaCream+ ialah produk pilihan MyGlory. Maklumat rasmi berkaitan formulasi, bahan utama, manfaat, dan penggunaan produk akan dikemas kini di bahagian ini.</p>
-        <div class="detail-info-grid shila-detail-grid">
-          <article>
-            <h3 data-i18n="detail.ingredientsTitle">Bahan Utama</h3>
-            <ul class="product-detail-list">
-              <li data-i18n="detail.gloreaIngredientPlaceholder1">Maklumat bahan utama GloreaCream+ akan dikemas kini.</li>
-              <li data-i18n="detail.formulaPlaceholder">Butiran formulasi dan kandungan produk akan ditambah kemudian.</li>
-            </ul>
-          </article>
-          <article>
-            <h3 data-i18n="detail.gloreaBenefitsTitle">Manfaat GloreaCream+</h3>
-            <ul class="product-detail-list benefit-list">
-              <li data-i18n="detail.gloreaBenefitPlaceholder1">Manfaat utama GloreaCream+ akan dikemas kini.</li>
-              <li data-i18n="detail.gloreaBenefitPlaceholder2">Maklumat penjagaan kulit, nilai produk, dan kelebihan penggunaan akan ditambah kemudian.</li>
-            </ul>
-          </article>
-          <article>
-            <h3 data-i18n="detail.formulaTechnologyTitle">Teknologi / Formula Digunakan</h3>
-            <p data-i18n="detail.gloreaFormulaText">Maklumat teknologi, formula, atau pendekatan produk GloreaCream+ akan dikemas kini selepas maklumat rasmi disediakan.</p>
-          </article>
-          <article class="technology-card">
-            <h3 data-i18n="detail.productInfo">Maklumat Produk</h3>
-            <ul class="product-detail-list">
-              <li data-i18n="detail.productInfoPlaceholder1">Maklumat penggunaan, pembungkusan, pensijilan, harga, atau butiran produk lain akan dikemas kini.</li>
-              <li data-i18n="detail.gloreaProductInfoPlaceholder2">Maklumat rasmi akan ditambah untuk membantu pelanggan memahami GloreaCream+ dengan lebih jelas.</li>
-            </ul>
+      <div class="stokis-group">
+        <h3>Sarawak</h3>
+        <div class="stokis-grid">
+          <article class="stokis-card">
+            <img src="assets/images/ALAMI68.png" alt="ALAMI68">
+            <span class="stokis-username">ALAMI68</span>
+            <h4>Abdul Lamit Bin Ismail</h4>
+            <p><span class="stokis-label" data-i18n="stokis.phoneLabel">Phone</span> 0108476032</p>
+            <p><span class="stokis-label" data-i18n="stokis.addressLabel">Address</span> Lot 2081 Kampung Limpaong, 98700 Limbang, Sarawak</p>
           </article>
         </div>
-        <a class="btn btn-primary" href="product.html" data-i18n="detail.backProducts">Back to Products</a>
+      </div>
+    </section>
+
+    <section class="section section-light" id="mobile" aria-labelledby="mobile-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="stokis.mobileEyebrow">MOBILE STOKIS</p>
+        <h2 id="mobile-title" data-i18n="stokis.mobileTitle">Mobile Stokis by Parliamentary Constituency</h2>
+        <p class="section-lead" data-i18n="stokis.mobileText">Our official Mobile Stokis are organised by parliamentary constituency for your convenience.</p>
+      </div>
+      <div class="stokis-group">
+        <h3>Ipoh</h3>
+        <div class="stokis-grid">
+          <article class="stokis-card">
+            <img src="assets/images/NORLISURI.png" alt="NORLISURI">
+            <span class="stokis-username">NORLISURI</span>
+            <h4>Norlia Binti Zainuddin</h4>
+            <p><span class="stokis-label" data-i18n="stokis.phoneLabel">Phone</span> 0185753255</p>
+            <p><span class="stokis-label" data-i18n="stokis.addressLabel">Address</span> No 25 Laluan Klebang Restu 1, Medan Klebang Restu, 31200 Chemor, Perak</p>
+          </article>
+        </div>
       </div>
     </section>
   </main>
@@ -107,10 +108,10 @@
       <a href="index.html" data-i18n="nav.home">Home</a>
       <a href="about.html" data-i18n="nav.about">About Us</a>
       <a href="product.html" data-i18n="nav.product">Product</a>
+      <a href="stokis.html" data-i18n="nav.stokis">Stokis List</a>
       <a href="news.html" data-i18n="nav.news">News</a>
       <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
       <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
-      <a href="stokis.html" data-i18n="nav.stokis">Stokis List</a>
       <a href="https://login.myglory.com.my/" data-i18n="nav.login">Login</a>
     </div>
     <div class="footer-column">
