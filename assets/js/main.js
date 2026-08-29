@@ -235,7 +235,7 @@ const translations = {
     "login.backHome": "Back to Home",
     "stokis.eyebrow": "Stokis List",
     "stokis.title": "Find your nearest MyGlory stokis.",
-    "stokis.lead": "Browse our official Master Stokis by state and Mobile Stokis by parliamentary constituency.",
+    "stokis.lead": "Browse our official MyGlory stokis by country.",
     "stokis.masterEyebrow": "MASTER STOKIS",
     "stokis.masterTitle": "Master Stokis by State",
     "stokis.masterText": "Our official Master Stokis are organised by state for your convenience.",
@@ -244,6 +244,8 @@ const translations = {
     "stokis.mobileText": "Our official Mobile Stokis are organised by parliamentary constituency for your convenience.",
     "stokis.phoneLabel": "Phone",
     "stokis.addressLabel": "Address",
+    "stokis.selectCountry": "Select Country",
+    "stokis.comingSoon": "No official stokis available in this country yet. Check back soon.",
     "footer.address": "30-1, 1st Floor, NeoCyber, Lingkaran Cyberpoint Barat, 63000 Cyberjaya, Selangor",
     "footer.facebook": "Facebook: MyGlory International",
     "footer.instagram": "Instagram: myglory_international_hq",
@@ -490,7 +492,7 @@ const translations = {
     "login.backHome": "Kembali ke Laman Utama",
     "stokis.eyebrow": "Senarai Stokis",
     "stokis.title": "Cari stokis MyGlory yang terdekat dengan anda.",
-    "stokis.lead": "Semak senarai Master Stokis rasmi kami mengikut negeri dan Mobile Stokis mengikut senarai parlimen.",
+    "stokis.lead": "Semak senarai stokis rasmi MyGlory kami mengikut negara.",
     "stokis.masterEyebrow": "MASTER STOKIS",
     "stokis.masterTitle": "Master Stokis Mengikut Negeri",
     "stokis.masterText": "Master Stokis rasmi kami disusun mengikut negeri untuk memudahkan anda.",
@@ -499,6 +501,8 @@ const translations = {
     "stokis.mobileText": "Mobile Stokis rasmi kami disusun mengikut senarai parlimen untuk memudahkan anda.",
     "stokis.phoneLabel": "Telefon",
     "stokis.addressLabel": "Alamat",
+    "stokis.selectCountry": "Pilih Negara",
+    "stokis.comingSoon": "Tiada stokis rasmi buat masa ini di negara ini. Sila semak lagi nanti.",
     "footer.address": "30-1, 1st Floor, NeoCyber, Lingkaran Cyberpoint Barat, 63000 Cyberjaya, Selangor",
     "footer.facebook": "Facebook: MyGlory International",
     "footer.instagram": "Instagram: myglory_international_hq",
@@ -745,7 +749,7 @@ const translations = {
     "login.backHome": "返回首页",
     "stokis.eyebrow": "经销商列表",
     "stokis.title": "寻找最邻近的 MyGlory 经销商。",
-    "stokis.lead": "浏览我们按州划分的官方总经销商和按国会选区划分的流动经销商。",
+    "stokis.lead": "按国家浏览我们的 MyGlory 官方经销商。",
     "stokis.masterEyebrow": "总经销商",
     "stokis.masterTitle": "按州划分的总经销商",
     "stokis.masterText": "我们官方的总经销商按州组织，方便您查找。",
@@ -754,6 +758,8 @@ const translations = {
     "stokis.mobileText": "我们官方的流动经销商按国会选区组织，方便您查找。",
     "stokis.phoneLabel": "电话",
     "stokis.addressLabel": "地址",
+    "stokis.selectCountry": "选择国家",
+    "stokis.comingSoon": "该国家目前暂无官方经销商，敬请期待。",
     "footer.address": "30-1, 1st Floor, NeoCyber, Lingkaran Cyberpoint Barat, 63000 Cyberjaya, Selangor",
     "footer.facebook": "Facebook: MyGlory International",
     "footer.instagram": "Instagram: myglory_international_hq",
@@ -1000,7 +1006,7 @@ const translations = {
     "login.backHome": "முகப்புக்கு திரும்பவும்",
     "stokis.eyebrow": "ஸ்டோகிஸ் பட்டியல்",
     "stokis.title": "உங்களுக்கு அருகிலுள்ள MyGlory ஸ்டோகிஸைக் கண்டறியுங்கள்.",
-    "stokis.lead": "மாநில வாரியாக எங்கள் அதிகாரப்பூர்வ மாஸ்டர் ஸ்டோகிஸ் மற்றும் நாடாளுமன்ற தொகுதி வாரியாக மொபைல் ஸ்டோகிஸைப் பார்க்கவும்.",
+    "stokis.lead": "நாடு வாரியாக எங்கள் MyGlory அதிகாரப்பூர்வ ஸ்டோகிஸைப் பார்க்கவும்.",
     "stokis.masterEyebrow": "மாஸ்டர் ஸ்டோகிஸ்",
     "stokis.masterTitle": "மாநில வாரியாக மாஸ்டர் ஸ்டோகிஸ்",
     "stokis.masterText": "உங்கள் வசதிக்காக எங்கள் அதிகாரப்பூர்வ மாஸ்டர் ஸ்டோகிஸ் மாநில வாரியாக ஒழுங்கமைக்கப்பட்டுள்ளது.",
@@ -1009,6 +1015,8 @@ const translations = {
     "stokis.mobileText": "உங்கள் வசதிக்காக எங்கள் அதிகாரப்பூர்வ மொபைல் ஸ்டோகிஸ் நாடாளுமன்ற தொகுதி வாரியாக ஒழுங்கமைக்கப்பட்டுள்ளது.",
     "stokis.phoneLabel": "தொலைபேசி",
     "stokis.addressLabel": "முகவரி",
+    "stokis.selectCountry": "நாட்டைத் தேர்ந்தெடுங்கள்",
+    "stokis.comingSoon": "இந்த நாட்டில் இன்னும் அதிகாரப்பூர்வ ஸ்டோகிஸ் எதுவும் இல்லை. விரைவில் மீண்டும் சரிபார்க்கவும்.",
     "footer.address": "30-1, 1st Floor, NeoCyber, Lingkaran Cyberpoint Barat, 63000 Cyberjaya, Selangor",
     "footer.facebook": "Facebook: MyGlory International",
     "footer.instagram": "Instagram: myglory_international_hq",
@@ -1255,7 +1263,7 @@ const translations = {
     "login.backHome": "العودة إلى الصفحة الرئيسية",
     "stokis.eyebrow": "قائمة الستوكيس",
     "stokis.title": "اعثروا على أقرب ستوكيس لـ MyGlory لكم.",
-    "stokis.lead": "تصفحوا قائمة الستوكيس الرئيسية الرسمية لدينا حسب الولاية وقائمة الستوكيس المتنقلة حسب الدائرة البرلمانية.",
+    "stokis.lead": "تصفحوا قائمة الستوكيس الرسمية لـ MyGlory حسب الدولة.",
     "stokis.masterEyebrow": "ستوكيس رئيسي",
     "stokis.masterTitle": "الستوكيس الرئيسي حسب الولاية",
     "stokis.masterText": "تم تنظيم الستوكيس الرئيسي الرسمي لدينا حسب الولاية لراحتكم.",
@@ -1264,6 +1272,8 @@ const translations = {
     "stokis.mobileText": "تم تنظيم الستوكيس المتنقل الرسمي لدينا حسب الدائرة البرلمانية لراحتكم.",
     "stokis.phoneLabel": "الهاتف",
     "stokis.addressLabel": "العنوان",
+    "stokis.selectCountry": "اختر الدولة",
+    "stokis.comingSoon": "لا يوجد ستوكيس رسمي في هذه الدولة بعد. عد قريباً.",
     "footer.address": "30-1, 1st Floor, NeoCyber, Lingkaran Cyberpoint Barat, 63000 Cyberjaya, Selangor",
     "footer.facebook": "Facebook: MyGlory International",
     "footer.instagram": "Instagram: myglory_international_hq",
@@ -1311,6 +1321,8 @@ function translatePage(language) {
   });
 
   localStorage.setItem("myglory-language", language);
+
+  document.dispatchEvent(new CustomEvent("myglory:languagechanged", { detail: { language } }));
 }
 
 const savedLanguage = localStorage.getItem("myglory-language") || "en";
@@ -1360,3 +1372,185 @@ document.addEventListener("keydown", (event) => {
     closeDropdowns();
   }
 });
+
+function initStokisBrowser() {
+  const countrySelect = document.querySelector("#country-select");
+  const stokisPanel = document.querySelector("#stokis-panel");
+
+  if (!countrySelect || !stokisPanel || typeof STOKIS_COUNTRIES === "undefined" || typeof STOKIS_STOCKISTS === "undefined") {
+    return;
+  }
+
+  let selectedCountryId = STOKIS_COUNTRIES.length > 0 ? STOKIS_COUNTRIES[0].id : null;
+
+  function currentLanguage() {
+    const saved = localStorage.getItem("myglory-language");
+    return translations[saved] ? saved : "en";
+  }
+
+  function dictionary() {
+    return translations[currentLanguage()] || translations.en;
+  }
+
+  function countryName(country) {
+    return country.name[currentLanguage()] || country.name.en;
+  }
+
+  function buildOptions() {
+    countrySelect.innerHTML = "";
+    STOKIS_COUNTRIES.forEach((country) => {
+      const option = document.createElement("option");
+      option.value = country.id;
+      option.textContent = countryName(country);
+      countrySelect.appendChild(option);
+    });
+    countrySelect.value = selectedCountryId;
+  }
+
+  function buildCard(card, dict) {
+    const article = document.createElement("article");
+    article.className = "stokis-card";
+
+    const image = document.createElement("img");
+    image.src = card.image;
+    image.alt = card.username;
+
+    const username = document.createElement("span");
+    username.className = "stokis-username";
+    username.textContent = card.username;
+
+    const name = document.createElement("h4");
+    name.textContent = card.name;
+
+    const phoneLine = document.createElement("p");
+    const phoneLabel = document.createElement("span");
+    phoneLabel.className = "stokis-label";
+    phoneLabel.textContent = `${dict["stokis.phoneLabel"]}:`;
+    phoneLine.appendChild(phoneLabel);
+    phoneLine.appendChild(document.createTextNode(card.phone));
+
+    const addressLine = document.createElement("p");
+    const addressLabel = document.createElement("span");
+    addressLabel.className = "stokis-label";
+    addressLabel.textContent = `${dict["stokis.addressLabel"]}:`;
+    addressLine.appendChild(addressLabel);
+    addressLine.appendChild(document.createTextNode(card.address));
+
+    article.append(image, username, name, phoneLine, addressLine);
+    return article;
+  }
+
+  function buildSubsection(id, groups, dict) {
+    const subsection = document.createElement("div");
+    subsection.className = "stokis-subsection";
+    subsection.id = id;
+    subsection.setAttribute("aria-labelledby", `${id}-title`);
+
+    const heading = document.createElement("div");
+    heading.className = "section-heading";
+
+    const eyebrow = document.createElement("p");
+    eyebrow.className = "eyebrow";
+    eyebrow.textContent = dict[id === "master" ? "stokis.masterEyebrow" : "stokis.mobileEyebrow"];
+
+    const title = document.createElement("h3");
+    title.className = "subsection-title";
+    title.id = `${id}-title`;
+    title.textContent = dict[id === "master" ? "stokis.masterTitle" : "stokis.mobileTitle"];
+
+    const lead = document.createElement("p");
+    lead.className = "section-lead";
+    lead.textContent = dict[id === "master" ? "stokis.masterText" : "stokis.mobileText"];
+
+    heading.append(eyebrow, title, lead);
+    subsection.appendChild(heading);
+
+    groups.forEach((group) => {
+      const groupWrap = document.createElement("div");
+      groupWrap.className = "stokis-group";
+
+      const groupTitle = document.createElement("h4");
+      groupTitle.textContent = group.title;
+
+      const grid = document.createElement("div");
+      grid.className = "stokis-grid";
+
+      group.cards.forEach((card) => {
+        grid.appendChild(buildCard(card, dict));
+      });
+
+      groupWrap.append(groupTitle, grid);
+      subsection.appendChild(groupWrap);
+    });
+
+    return subsection;
+  }
+
+  function renderPanel() {
+    if (!selectedCountryId) {
+      return;
+    }
+
+    const dict = dictionary();
+    const country = STOKIS_COUNTRIES.find((item) => item.id === selectedCountryId);
+    const entry = STOKIS_STOCKISTS[selectedCountryId];
+
+    stokisPanel.innerHTML = "";
+
+    const block = document.createElement("div");
+    block.className = "stokis-country";
+
+    const header = document.createElement("header");
+    header.className = "country-header";
+    const countryTitle = document.createElement("h2");
+    countryTitle.textContent = country ? countryName(country) : "";
+    header.appendChild(countryTitle);
+    block.appendChild(header);
+
+    if (entry) {
+      if (entry.master && entry.master.length > 0) {
+        block.appendChild(buildSubsection("master", entry.master, dict));
+      }
+      if (entry.mobile && entry.mobile.length > 0) {
+        block.appendChild(buildSubsection("mobile", entry.mobile, dict));
+      }
+    } else {
+      const emptyState = document.createElement("div");
+      emptyState.className = "coming-soon-card";
+
+      const emptyText = document.createElement("p");
+      emptyText.textContent = dict["stokis.comingSoon"] || translations.en["stokis.comingSoon"];
+
+      emptyState.appendChild(emptyText);
+      block.appendChild(emptyState);
+    }
+
+    stokisPanel.appendChild(block);
+  }
+
+  countrySelect.addEventListener("change", () => {
+    selectedCountryId = countrySelect.value;
+    renderPanel();
+  });
+
+  document.addEventListener("myglory:languagechanged", () => {
+    buildOptions();
+    renderPanel();
+  });
+
+  buildOptions();
+  renderPanel();
+
+  const hash = window.location.hash;
+  if ((hash === "#master" || hash === "#mobile") && STOKIS_STOCKISTS.my) {
+    selectedCountryId = "my";
+    buildOptions();
+    renderPanel();
+    const target = document.getElementById(hash.slice(1));
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+}
+
+initStokisBrowser();
