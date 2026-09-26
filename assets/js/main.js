@@ -1407,13 +1407,17 @@ function initStokisBrowser() {
     countrySelect.value = selectedCountryId;
   }
 
-  function buildCard(card, dict) {
+  function buildCard(card, area, dict) {
     const article = document.createElement("article");
     article.className = "stokis-card";
 
     const image = document.createElement("img");
     image.src = card.image;
     image.alt = card.username;
+
+    const areaTitle = document.createElement("h4");
+    areaTitle.className = "stokis-area";
+    areaTitle.textContent = area;
 
     const username = document.createElement("span");
     username.className = "stokis-username";
@@ -1436,7 +1440,7 @@ function initStokisBrowser() {
     addressLine.appendChild(addressLabel);
     addressLine.appendChild(document.createTextNode(card.address));
 
-    article.append(image, username, name, phoneLine, addressLine);
+    article.append(image, areaTitle, username, name, phoneLine, addressLine);
     return article;
   }
 
@@ -1465,23 +1469,14 @@ function initStokisBrowser() {
     heading.append(eyebrow, title, lead);
     subsection.appendChild(heading);
 
+    const grid = document.createElement("div");
+    grid.className = "stokis-grid";
     groups.forEach((group) => {
-      const groupWrap = document.createElement("div");
-      groupWrap.className = "stokis-group";
-
-      const groupTitle = document.createElement("h4");
-      groupTitle.textContent = group.title;
-
-      const grid = document.createElement("div");
-      grid.className = "stokis-grid";
-
       group.cards.forEach((card) => {
-        grid.appendChild(buildCard(card, dict));
+        grid.appendChild(buildCard(card, group.title, dict));
       });
-
-      groupWrap.append(groupTitle, grid);
-      subsection.appendChild(groupWrap);
     });
+    subsection.appendChild(grid);
 
     return subsection;
   }

@@ -101,6 +101,42 @@ const STOKIS_STOCKISTS = {
             address: "No 12-02 Melati Impian Apartment, Jln Madrasah, 53000 Kuala Lumpur, WP Kuala Lumpur, Malaysia"
           }
         ]
+      },
+      {
+        title: "MANJUNG",
+        cards: [
+          {
+            image: "assets/images/manjung.jpg",
+            username: "BONDAAZIKAYA",
+            name: "POZIAH BINTI ABU HASSIN",
+            phone: "01155068802",
+            address: "No 20 Taman Seri Mawar, Kampong cina, 32000 Sitiawan, Perak, Malaysia"
+          }
+        ]
+      },
+      {
+        title: "TEMERLOH",
+        cards: [
+          {
+            image: "assets/images/temerloh.jpg",
+            username: "ZKMAKMUR60",
+            name: "ZAITON BT KAMARUDDIN",
+            phone: "0179359607",
+            address: "No 333 blok 4, 28500 Lanchang, Pahang, Malaysia"
+          }
+        ]
+      },
+      {
+        title: "KOTA BHARU",
+        cards: [
+          {
+            image: "assets/images/kota bharu.png",
+            username: "IZANJUTAWAN",
+            name: "NORIZAN BINTI MUHAMMAD",
+            phone: "0106630994",
+            address: "497 KAMPUNG BENDANG PULAU, PALEKBANG, 16040 Wakaf Bharu, Kelantan, Malaysia"
+          }
+        ]
       }
     ]
   }
