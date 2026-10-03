@@ -68,7 +68,7 @@ const STOKIS_STOCKISTS = {
         title: "Sarawak",
         cards: [
           {
-            image: "assets/images/ALAMI68.png",
+            image: "assets/images/stokis/ALAMI68.png",
             username: "ALAMI68",
             name: "Abdul Lamit Bin Ismail",
             phone: "0108476032",
@@ -82,7 +82,7 @@ const STOKIS_STOCKISTS = {
         title: "Ipoh",
         cards: [
           {
-            image: "assets/images/NORLISURI.png",
+            image: "assets/images/stokis/NORLISURI.png",
             username: "NORLISURI",
             name: "Norlia Binti Zainuddin",
             phone: "0185753255",
@@ -94,7 +94,7 @@ const STOKIS_STOCKISTS = {
         title: "Kuala Lumpur",
         cards: [
           {
-            image: "assets/images/LADYBOS.png",
+            image: "assets/images/stokis/LADYBOS.png",
             username: "LADYBOS",
             name: "Chu Maya Binti Mat Rashid",
             phone: "0192125733",
@@ -106,7 +106,7 @@ const STOKIS_STOCKISTS = {
         title: "MANJUNG",
         cards: [
           {
-            image: "assets/images/manjung.jpg",
+            image: "assets/images/stokis/manjung.jpg",
             username: "BONDAAZIKAYA",
             name: "POZIAH BINTI ABU HASSIN",
             phone: "01155068802",
@@ -118,7 +118,7 @@ const STOKIS_STOCKISTS = {
         title: "TEMERLOH",
         cards: [
           {
-            image: "assets/images/temerloh.jpg",
+            image: "assets/images/stokis/temerloh.jpg",
             username: "ZKMAKMUR60",
             name: "ZAITON BT KAMARUDDIN",
             phone: "0179359607",
@@ -130,7 +130,7 @@ const STOKIS_STOCKISTS = {
         title: "KOTA BHARU",
         cards: [
           {
-            image: "assets/images/kota bharu.png",
+            image: "assets/images/stokis/kota bharu.png",
             username: "IZANJUTAWAN",
             name: "NORIZAN BINTI MUHAMMAD",
             phone: "0106630994",
